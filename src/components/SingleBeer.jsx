@@ -23,8 +23,10 @@ export default function SingleBeer() {
   console.log(beerId);
 
   return (
-<div>
-    <Header />
+   
+  <div>
+   <Header />
+   <div className="singleBeerParent">
     <div className="singleBeer">
       <h1>{beer.name}</h1>
       <img src={beer.image_url} alt={beer.name} />
@@ -33,6 +35,7 @@ export default function SingleBeer() {
       <p>Attenuation Level: {beer.attenuation_level}</p>
       <p>Description: {beer.description}</p>
       <p>Contributed By: {beer.contributed_by}</p>
+    </div>
     </div>
     </div>
   );

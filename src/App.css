@@ -97,10 +97,18 @@ nav a {
   margin-top: 10px;
 }
 
+
+.singleBeerParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 .singleBeer {
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+  width: 50%;
 }
 
 .singleBeer h1 {
@@ -109,8 +117,8 @@ nav a {
 }
 
 .singleBeer img {
-  width: 100%;
-  height: auto;
+  width: 10%;
+  height: 30%;
   object-fit: cover;
   margin: 20px 0;
 }
@@ -224,14 +232,20 @@ nav a {
   }
   
   .singleBeer img {
-  max-width: 30%;
-  height: 5%;
+  width: 100px;
+  height: 50vh;
+  object-fit: cover;
   }
   
   .singleBeer p {
-  max-width: 600px;
   margin: 20px auto;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
+  text-align: justify;
+  }
+
+  .singleBeer h1 {
+    font-size: 1.2rem;
+    margin-top: 30px;
   }
   
   .randomBeer img {
@@ -252,10 +266,12 @@ nav a {
   text-align: left;
   }
   .newBeer h1 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
   }
   .newBeer input {
-  width: 120%;
+  width: 90vw;
   }
   
   .newBeer button {
